@@ -688,3 +688,83 @@ Example FetchXML configuration:
     <attribute name="name" />
   </entity>
 </fetch>
+
+## Learn these fundamentals first
+1. What is Microsoft Dataverse, and how does it relate to Dynamics 365 CRM?
+2. What is the difference between Dynamics 365 Sales, Customer Service and Power Apps?
+3. What is the difference between a canvas app and a model-driven app?
+4. What are standard, custom, activity and virtual tables?
+5. What is the difference between a lookup column and a choice column?
+6. Explain one-to-many, many-to-one and many-to-many relationships with examples.
+7. What is relationship cascading? What happens when a parent record is deleted?
+8. What is the difference between a calculated, formula and rollup column?
+9. What is the difference between a system view, personal view and Quick Find view?
+10. How do you import data and prevent duplicate records?
+Solutions and deployments—important missing topics
+11. What is a solution, and why should customisations be developed inside one?
+12. What is the difference between managed and unmanaged solutions?
+13. What are a solution publisher and customisation prefix?
+14. What are solution dependencies?
+15. What are solution layers, and how can they affect application behaviour?
+16. What is the difference between a solution update and upgrade?
+17. What are environment variables and connection references?
+18. How do you move changes from development to testing and production?
+19. How would you investigate a failed solution import?
+20. What should you check before deploying a change to production?
+D365 CRM business processes
+21. Explain the journey from Lead to Opportunity to a successful sale.
+22. What is the difference between an Account, Contact, Lead and Opportunity?
+23. What happens when a lead is qualified?
+24. What is a business process flow, and how does it differ from a cloud flow?
+25. What are Cases, Queues, Entitlements and SLAs in Customer Service?
+26. How would you gather requirements before configuring a CRM application?
+JavaScript and client-side development
+27. What is the difference between an attribute and a control?
+28. How do you read and update text, choice, date and lookup values?
+29. Does setValue() automatically execute OnChange handlers?
+30. How do you prevent a form from saving when validation fails?
+31. What is the difference between execution context, form context and global context?
+32. How do you retrieve and update records using Xrm.WebApi?
+33. What are promises and async/await, and why are they useful?
+34. How do you troubleshoot a script that works for an administrator but fails for another user?
+C# and plug-ins—for developer roles
+35. Explain classes, interfaces, collections and exception handling in C#.
+36. What is IPlugin, and what happens inside its Execute method?
+37. What is the difference between Entity and EntityReference?
+38. What is the difference between early-bound and late-bound programming?
+39. What are the plug-in context’s InputParameters, OutputParameters and SharedVariables?
+40. What are filtering attributes, and why should you configure them?
+41. Why might an Update plug-in’s Target contain only some columns?
+42. How do you avoid unnecessary plug-in recursion?
+43. When would you choose a plug-in instead of a cloud flow?
+44. How do you test and troubleshoot a plug-in?
+Power Automate and integrations
+45. What is the difference between a trigger condition and a Condition action?
+46. How do you prevent a flow from repeatedly triggering itself?
+47. What are concurrency control and retry policies?
+48. How do you use OData filter queries to retrieve only required records?
+49. What is a solution-aware cloud flow?
+50. What happens to connections and flows when their owner leaves the company?
+51. How would you authenticate an external application to Dataverse?
+52. What is an upsert, and when would you use it?
+53. What is the difference between FetchXML, QueryExpression and the Dataverse Web API?
+54. How would you handle API throttling and duplicate requests?
+Scenario questions—practise explaining your approach
+55. A user can open an app but cannot see customer records. What would you check?
+56. A user can read an Account but cannot associate a Contact with it. How would you investigate?
+57. A business rule works on one form but not another. What could cause this?
+58. A flow creates duplicate records. How would you identify and fix the cause?
+59. An integration creates duplicate customers after retrying failed requests. How would you redesign it?
+60. A form loads slowly. How would you isolate the cause?
+61. A solution works in development but fails in testing. What would you compare?
+62. A requirement says, “Send approval when a discount exceeds 20%.” How would you design it?
+63. How would you ensure customers see only their own enquiries?
+64. How would you investigate an issue without making experimental changes in production?
+Project and experience questions
+65. Explain one application you built: requirement, design, implementation and testing.
+66. What did you personally configure or code?
+67. Describe a difficult issue you resolved and how you found its cause.
+68. How did you handle security and sensitive data?
+69. How did you deploy and validate your changes?
+70. What would you improve if you rebuilt the application?
+    ## end crm
